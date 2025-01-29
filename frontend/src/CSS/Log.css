@@ -1,0 +1,65 @@
+.log-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+
+.log-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.log-entry {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.log-entry p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.log-date {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+.log-type {
+    font-weight: bold;
+    color: #28a745;
+}
+
+
+.log-result {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+
+.log-divider {
+    margin-top: 10px;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+
+.log-loading {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 20px;
+}
